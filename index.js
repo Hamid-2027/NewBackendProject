@@ -37,7 +37,7 @@ const FILE_PATH = './data.json';
 const git = simpleGit();
 
 // Set the commit date to yesterday
-const DATE = moment().subtract(1, 'days').format();
+const DATE = moment().subtract(1,'d').format();//subtract(1,'y').add(1,'d')
 
 // Data to write to the JSON file
 const data = {
